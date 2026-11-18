@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="mediverse-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="50%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  {/* Outer Rounded Container matching MediVerse Branding */}
+  <rect x="6" y="6" width="116" height="116" rx="36" fill="url(#mediverse-grad)" />
+  
+  {/* Heartbeat ECG Activity Pulse Line Icon */}
+  <path d="M 24 64 H 42 L 52 38 L 66 90 L 78 52 L 88 72 H 104" 
+        fill="none" 
+        stroke="#FFFFFF" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+</svg>
